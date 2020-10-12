@@ -163,21 +163,19 @@ table(y_pred, df_test$y)
 
 
 
-# calc_test <- function( df_test, prior =  prior) {
-  df_test_backup <-  df_test
-  df_test <- df_test[,grep("y", names(df_test),invert = T )]
-
-  
-  prob <- as.data.frame(table(df_test[1]) /  nrow(df_test))
-  names(prob) <- c('ind', 'prob')
-  prob$ind <- paste(i, prob$ind)  
-  
-  t_val <- paste(names(t1), t1, sep = ".")
-  
-  
 
 
 
+
+
+
+
+
+
+
+
+
+### version 1
 
 ## calculate prior prob_d and prob_c
 
