@@ -5,11 +5,9 @@
 ### probablity of each class in each variable
 ### total number of observations
 
-set.seed(7890)
+set.seed(78901)
 
-P = c(0.5, 0.5)
-k = length(p)
-ob = 1000000
+ob = 3000000
 
 # gen <- function(p = c(), k = length(p), ob) {
 #   if (k <= 0) {
@@ -38,12 +36,14 @@ df <- data.frame(y, x1, x2, x3, x4, x5, x6)
 econ_gain <-  diag(length(unique(y)))
 
 
-
 # econ_gain <- matrix(
-#     c(2,2,2,2,
-#       0,0,-1,0,
-#       3,0,3,0,
-#       1,1,1,0), ncol = 4, nrow = 4, byrow = T)
+#     c(2,2,2,2,2,1,
+#       0,2,-1,0,0,1,
+#       3,0,3,0,0,3,
+#       1,1,0,0,1,0,
+#       3,0,1,1,0,2,
+#       0,0,1,0,1,0), ncol = 6, nrow = 6, byrow = T)
+
 
 
 
@@ -81,7 +81,8 @@ fun_prob <- function(df){
 ## testing set
 
 
-fun_test <- function(df_test, prior_df = fun_prob(df_train), show_result = F) {
+
+fun_test <- function(df_test, prior_df = prior_df, show_e = F) {
   
   test_meta <- fun_prob(df_test)
   
@@ -104,38 +105,106 @@ fun_test <- function(df_test, prior_df = fun_prob(df_train), show_result = F) {
     e_out<- colSums(out$PT_C_coma_D * econ_gain)
     e <- max(e_out)
     asgn_class <- which(e_out == max(e_out))
+    true_class <- which(tmp_set_denom$cnt == max(tmp_set_denom$cnt))
     
     # print(data.frame(i, e,asgn_class))
     
-    result <- rbind(result, data.frame(i, e, asgn_class))
+    result <- rbind(result, data.frame(i, e, asgn_class, true_class))
     
     }
    result <- result[!duplicated(result),]
+   
+   names(result) <- c("x_index", "e", "asgn_class", "true_class")
   
    E = sum(result$e)
    
    
-   if (show_result){
-     return(result)
+   if (show_e){
+     return(E)
    } else {
-     return(E) 
+     return(result) 
    }
 
 }
 
 
+
+prior_df = fun_prob(df_train)
+
+
 # fun_test(df_test, show_result = T)
 
 
-for (i in 1:5) {
-  test_index <- ((i -1) * 0.2 * nrow(df) +1 ) : ((i) * 0.2 * nrow(df))
+## Optimization
+
+iter <- 12
+
+for (i in 1:iter) {
+  if (i ==  1) {
+    prior_df = fun_prob(df_train)
+  } else {
+    delta <- 0.02
+    delta_set <-
+      fun_test(df_test = df_test,
+               prior_df = prior_df,
+               show_e = F)
+    
+    prior_df <-
+      merge(
+        prior_df,
+        delta_set[delta_set$asgn_class != delta_set$true_class,],
+        by.x = c("x_index", "y"),
+        by.y = c("x_index", "true_class"),
+        all.x = T
+      )
+    
+    prior_df$prob_d_c[!is.na(prior_df$asgn_class)] <-
+      prior_df$prob_d_c[!is.na(prior_df$asgn_class)] + delta
+    
+    prior_df <-
+      prior_df[, c('x_index', 'y', "cnt" , "prob_d_c", "prob_c")]
+    
+    for (j in unique(prior_df$y)) {
+      prior_df[prior_df$y == j, "prob_d_c"] <-
+        prior_df[prior_df$y == j, "prob_d_c"] / sum(prior_df[prior_df$y == j, "prob_d_c"])
+    }
+    
+  }
+
+  # if (i < n_fold) {
+  #   show_E = T
+  # } else{
+  #   show_E = F
+  # }
+  
+  print(fun_test(
+    df_test = df_test,
+    prior_df = prior_df,
+    show_e = T
+  ))
+}
+
+
+
+
+
+## CV
+n_fold = 10
+for (i in 1:n_fold) {
+  test_index <-
+    ((i - 1) * 1 / n_fold * nrow(df) + 1):((i) * 1 / n_fold * nrow(df))
   
   df_test <- df[test_index, ]
-  df_train <- df[ - test_index , ]
-
-  print(fun_test(df_test = df_test))
-  
+  df_train <- df[-test_index , ]
+  print(fun_test(
+    df_test = df_test,
+    prior_df = prior_df,
+    show_e = T
+  ))
 }
+
+
+
 
 
 
