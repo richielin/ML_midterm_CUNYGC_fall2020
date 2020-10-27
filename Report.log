@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.19)  19 OCT 2020 12:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.19)  26 OCT 2020 20:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -22,43 +22,370 @@ File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
+) (c:/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+) (c:/texlive/2020/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/10/06 3.50 The Babel package
+ (c:/texlive/2020/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/10/06 3.50 Babel common definitions
+\babel@savecnt=\count183
+\U@D=\dimen139
+\l@babelnohyphens=\language86
+ (c:/texlive/2020/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count184
+ (c:/texlive/2020/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language21) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language21) on input line 108.
+)) (c:/texlive/2020/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count185
+\mult@box=\box47
+\multicol@leftmargin=\dimen140
+\c@unbalance=\count186
+\c@collectmore=\count187
+\doublecol@number=\count188
+\multicoltolerance=\count189
+\multicolpretolerance=\count190
+\full@width=\dimen141
+\page@free=\dimen142
+\premulticols=\dimen143
+\postmulticols=\dimen144
+\multicolsep=\skip49
+\multicolbaselineskip=\skip50
+\partial@page=\box48
+\last@line=\box49
+\maxbalancingoverflow=\dimen145
+\mult@rightbox=\box50
+\mult@grightbox=\box51
+\mult@gfirstbox=\box52
+\mult@firstbox=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\c@minrows=\count191
+\c@columnbadness=\count192
+\c@finalcolumnbadness=\count193
+\last@try=\dimen146
+\multicolovershoot=\dimen147
+\multicolundershoot=\dimen148
+\mult@nat@firstbox=\box91
+\colbreak@box=\box92
+\mc@col@check@num=\count194
+) (c:/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (c:/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (c:/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (c:/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+) (c:/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (c:/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (c:/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count195
+\Gm@cntv=\count196
+\c@Gm@tempcnt=\count197
+\Gm@bindingoffset=\dimen151
+\Gm@wd@mp=\dimen152
+\Gm@odd@mp=\dimen153
+\Gm@even@mp=\dimen154
+\Gm@layoutwidth=\dimen155
+\Gm@layoutheight=\dimen156
+\Gm@layouthoffset=\dimen157
+\Gm@layoutvoffset=\dimen158
+\Gm@dimlist=\toks18
 ) (c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count183
-\l__pdf_internal_box=\box47
+\l__kernel_color_stack_int=\count198
+\l__pdf_internal_box=\box93
 ) (c:/Users/Richie/iCloudDrive/PHD/Classes/DS/Machine Learning/Midterm/ML_midterm_CUNYGC_fall2020/Report.aux)
 \openout1 = `Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
- [1
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+ (c:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count199
+\scratchdimen=\dimen159
+\scratchbox=\box94
+\nofMPsegments=\count266
+\nofMParguments=\count267
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count268
+\MPscratchDim=\dimen160
+\MPnumerator=\count269
+\makeMPintoPDFobject=\count270
+\everyMPtoPDFconversion=\toks20
+) (c:/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (c:/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(81.94394pt, 433.62pt, 81.94394pt)
+* v-part:(T,H,B)=(106.75473pt, 578.15999pt, 160.13213pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=433.62pt
+* \textheight=578.15999pt
+* \oddsidemargin=9.67395pt
+* \evensidemargin=9.67395pt
+* \topmargin=-2.51526pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (c:/Users/Richie/iCloudDrive/PHD/Classes/DS/Machine Learning/Midterm/ML_midterm_CUNYGC_fall2020/Report.aux) ) 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 16.
+[1
+
+{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<./figs//fig1.png, id=10, 231.11343pt x 135.50626pt>
+File: ./figs//fig1.png Graphic file (type png)
+<use ./figs//fig1.png>
+Package pdftex.def Info: ./figs//fig1.png  used on input line 32.
+(pdftex.def)             Requested size: 231.11287pt x 135.5059pt.
+
+Overfull \hbox (34.30287pt too wide) in paragraph at lines 32--33
+[][] 
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 34.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 34.
+<./figs//fig2.png, id=12, 216.81pt x 225.84375pt>
+File: ./figs//fig2.png Graphic file (type png)
+<use ./figs//fig2.png>
+Package pdftex.def Info: ./figs//fig2.png  used on input line 40.
+(pdftex.def)             Requested size: 216.80946pt x 225.84319pt.
+
+Overfull \hbox (19.99947pt too wide) in paragraph at lines 40--41
+[][] 
+ []
+
+[2 <c:/Users/Richie/iCloudDrive/PHD/Classes/DS/Machine Learning/Midterm/ML_midterm_CUNYGC_fall2020/./figs//fig1.png> <c:/Users/Richie/iCloudDrive/PHD/Classes/DS/Machine Learning/Midterm/ML_midterm_CUNYGC_fall2020/./figs//fig2.png>]
+<./figs//fig3.png, id=19, 216.81pt x 93.34875pt>
+File: ./figs//fig3.png Graphic file (type png)
+<use ./figs//fig3.png>
+Package pdftex.def Info: ./figs//fig3.png  used on input line 53.
+(pdftex.def)             Requested size: 216.80946pt x 93.34851pt.
+
+Overfull \hbox (19.99947pt too wide) in paragraph at lines 53--54
+[][] 
+ []
+
+<./figs//fig4.png, id=20, 216.81pt x 360.59718pt>
+File: ./figs//fig4.png Graphic file (type png)
+<use ./figs//fig4.png>
+Package pdftex.def Info: ./figs//fig4.png  used on input line 58.
+(pdftex.def)             Requested size: 216.80946pt x 360.5963pt.
+
+Overfull \hbox (19.99947pt too wide) in paragraph at lines 58--59
+[][] 
+ []
+
+<./figs//fig5.png, id=21, 127.22531pt x 167.87718pt>
+File: ./figs//fig5.png Graphic file (type png)
+<use ./figs//fig5.png>
+Package pdftex.def Info: ./figs//fig5.png  used on input line 63.
+(pdftex.def)             Requested size: 127.22499pt x 167.87677pt.
+[3 <c:/Users/Richie/iCloudDrive/PHD/Classes/DS/Machine Learning/Midterm/ML_midterm_CUNYGC_fall2020/./figs//fig3.png> <c:/Users/Richie/iCloudDrive/PHD/Classes/DS/Machine Learning/Midterm/ML_midterm_CUNYGC_fall2020/./figs//fig4.png>]
+<./figs//fig6.png, id=29, 216.81pt x 197.98969pt>
+File: ./figs//fig6.png Graphic file (type png)
+<use ./figs//fig6.png>
+Package pdftex.def Info: ./figs//fig6.png  used on input line 67.
+(pdftex.def)             Requested size: 216.80946pt x 197.9892pt.
+
+Overfull \hbox (19.99947pt too wide) in paragraph at lines 67--68
+[][] 
+ []
+
+<./figs//fig7.png, id=30, 216.81pt x 442.65375pt>
+File: ./figs//fig7.png Graphic file (type png)
+<use ./figs//fig7.png>
+Package pdftex.def Info: ./figs//fig7.png  used on input line 81.
+(pdftex.def)             Requested size: 216.80946pt x 442.65265pt.
+
+Overfull \hbox (19.99947pt too wide) in paragraph at lines 81--82
+[][] 
+ []
+
+[4 <c:/Users/Richie/iCloudDrive/PHD/Classes/DS/Machine Learning/Midterm/ML_midterm_CUNYGC_fall2020/./figs//fig5.png> <c:/Users/Richie/iCloudDrive/PHD/Classes/DS/Machine Learning/Midterm/ML_midterm_CUNYGC_fall2020/./figs//fig6.png>]
+<./figs//fig8.png, id=42, 161.85469pt x 68.50594pt>
+File: ./figs//fig8.png Graphic file (type png)
+<use ./figs//fig8.png>
+Package pdftex.def Info: ./figs//fig8.png  used on input line 86.
+(pdftex.def)             Requested size: 161.85428pt x 68.50577pt.
+<./figs//fig9.png, id=43, 216.81pt x 184.43906pt>
+File: ./figs//fig9.png Graphic file (type png)
+<use ./figs//fig9.png>
+Package pdftex.def Info: ./figs//fig9.png  used on input line 91.
+(pdftex.def)             Requested size: 216.80946pt x 184.4386pt.
+
+Overfull \hbox (19.99947pt too wide) in paragraph at lines 91--92
+[][] 
+ []
+
+<./figs//fig10.png, id=44, 216.81pt x 256.70906pt>
+File: ./figs//fig10.png Graphic file (type png)
+<use ./figs//fig10.png>
+Package pdftex.def Info: ./figs//fig10.png  used on input line 97.
+(pdftex.def)             Requested size: 216.80946pt x 256.70842pt.
+
+Overfull \hbox (19.99947pt too wide) in paragraph at lines 97--98
+[][] 
+ []
+
+[5 <c:/Users/Richie/iCloudDrive/PHD/Classes/DS/Machine Learning/Midterm/ML_midterm_CUNYGC_fall2020/./figs//fig7.png> <c:/Users/Richie/iCloudDrive/PHD/Classes/DS/Machine Learning/Midterm/ML_midterm_CUNYGC_fall2020/./figs//fig8.png> <c:/Users/Richie/iCloudDrive/PHD/Classes/DS/Machine Learning/Midterm/ML_midterm_CUNYGC_fall2020/./figs//fig9.png>]
+<./figs//fig11.png, id=51, 216.81pt x 550.30594pt>
+File: ./figs//fig11.png Graphic file (type png)
+<use ./figs//fig11.png>
+Package pdftex.def Info: ./figs//fig11.png  used on input line 104.
+(pdftex.def)             Requested size: 216.80946pt x 550.3046pt.
+
+Overfull \hbox (19.99947pt too wide) in paragraph at lines 104--105
+[][] 
+ []
+
+[6 <c:/Users/Richie/iCloudDrive/PHD/Classes/DS/Machine Learning/Midterm/ML_midterm_CUNYGC_fall2020/./figs//fig10.png> <c:/Users/Richie/iCloudDrive/PHD/Classes/DS/Machine Learning/Midterm/ML_midterm_CUNYGC_fall2020/./figs//fig11.png>]
+Underfull \hbox (badness 7907) in paragraph at lines 113--113
+[]\OT1/cmr/bx/n/14.4 Experimental Re-sult &
+ []
+
+<./figs//fig12.png, id=57, 216.81pt x 341.02406pt>
+File: ./figs//fig12.png Graphic file (type png)
+<use ./figs//fig12.png>
+Package pdftex.def Info: ./figs//fig12.png  used on input line 119.
+(pdftex.def)             Requested size: 216.80946pt x 341.02322pt.
+
+Overfull \hbox (29.9995pt too wide) in paragraph at lines 119--120
+[][] 
+ []
+
+<./figs//fig13.png, id=58, 142.28156pt x 78.2925pt>
+File: ./figs//fig13.png Graphic file (type png)
+<use ./figs//fig13.png>
+Package pdftex.def Info: ./figs//fig13.png  used on input line 123.
+(pdftex.def)             Requested size: 142.2812pt x 78.2923pt.
+<./figs//fig14.png, id=59, 216.81pt x 330.48468pt>
+File: ./figs//fig14.png Graphic file (type png)
+<use ./figs//fig14.png>
+Package pdftex.def Info: ./figs//fig14.png  used on input line 125.
+(pdftex.def)             Requested size: 216.80946pt x 330.48387pt.
+
+Overfull \hbox (29.9995pt too wide) in paragraph at lines 125--126
+[][] 
+ []
+
+[7 <c:/Users/Richie/iCloudDrive/PHD/Classes/DS/Machine Learning/Midterm/ML_midterm_CUNYGC_fall2020/./figs//fig12.png> <c:/Users/Richie/iCloudDrive/PHD/Classes/DS/Machine Learning/Midterm/ML_midterm_CUNYGC_fall2020/./figs//fig13.png>] [8 <c:/Users/Richie/iCloudDrive/PHD/Classes/DS/Machine Learning/Midterm/ML_midterm_CUNYGC_fall2020/./figs//fig14.png>] (c:/Users/Richie/iCloudDrive/PHD/Classes/DS/Machine Learning/Midterm/ML_midterm_CUNYGC_fall2020/Report.aux) ) 
 Here is how much of TeX's memory you used:
- 385 strings out of 479917
- 7711 string characters out of 5886664
- 269252 words of memory out of 5000000
- 17043 multiletter control sequences out of 15000+600000
- 535088 words of font info for 29 fonts, out of 8000000 for 9000
+ 2676 strings out of 479917
+ 40301 string characters out of 5886664
+ 341851 words of memory out of 5000000
+ 19241 multiletter control sequences out of 15000+600000
+ 539370 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,4n,49p,224b,100s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on "c:/Users/Richie/iCloudDrive/PHD/Classes/DS/Machine Learning/Midterm/ML_midterm_CUNYGC_fall2020/Report.pdf" (1 page, 16690 bytes).
+ 66i,6n,72p,956b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on "c:/Users/Richie/iCloudDrive/PHD/Classes/DS/Machine Learning/Midterm/ML_midterm_CUNYGC_fall2020/Report.pdf" (8 pages, 894763 bytes).
 PDF statistics:
- 12 PDF objects out of 1000 (max. 8388607)
- 7 compressed objects within 1 object stream
+ 113 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
